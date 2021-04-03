@@ -17,7 +17,7 @@
         <p><a href="/">Revenir à la page d'accueil</p>
 
         <footer>
-          <p>&copy; Promessevidéo {{ date('M Y')}}-Tous droits réservés &middot;<a href="/about-fr">About Fr</p>
+          <p>&copy; Promessevidéo {{ date('M Y')}}-Tous droits réservés &middot;</p>
         </footer>
 
     </body>
