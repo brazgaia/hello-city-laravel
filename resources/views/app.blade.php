@@ -14,7 +14,8 @@
 
       <footer>
           <p>
-            &copy; Promessevidéo {{ date('M Y')}}-Tous droits réservés &middot;<a href="/about-fr">About Fr
+            &copy; Promessevidéo {{ date('M Y')}}-Tous droits réservés
+            &middot; <a href="{{ route('about') }}">About Fr</a>
           </p>
       </footer>
 
