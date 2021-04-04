@@ -16,7 +16,7 @@
           <p>
             &copy; Promessevidéo {{ date('M Y')}}-Tous droits réservés
 
-            @if(! Route::is('home'))
+            @if(! Route::is('about'))
             &middot; <a href="{{ route('about') }}">About Fr</a>
             @endif
           </p>

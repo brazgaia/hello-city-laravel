@@ -5,6 +5,8 @@
 
 @section('content')
 
+        <img src="/images/appphoto.png" alt="Appareil photo">
+
         <h1>About Fr | Hello from Laleu !</h1>
 
         <p>Built with &hearts; by promessevidéo.</p>
