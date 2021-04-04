@@ -15,7 +15,10 @@
       <footer>
           <p>
             &copy; Promessevidéo {{ date('M Y')}}-Tous droits réservés
+
+            @if(! Route::is('home'))
             &middot; <a href="{{ route('about') }}">About Fr</a>
+            @endif
           </p>
       </footer>
 
