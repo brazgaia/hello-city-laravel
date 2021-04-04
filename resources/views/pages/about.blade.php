@@ -1,12 +1,14 @@
 @extends('app')
 
+@section('title', 'About Fr | Hello City')
+
+
 @section('content')
 
-        <h1>About Fr | Hello City</h1>
 
-        <p>Built with &hearts; by promessevidéo</p>
+        <p>Built with &hearts; by promessevidéo.</p>
 
-        <p><a href="/">Revenir à la page d'accueil</p>
+        <p><a href="/">Revenir à la page d'accueil</a></p>
 
 
 @endsection
