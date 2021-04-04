@@ -1,10 +1,11 @@
 @extends('app')
 
-@section('title', 'About Fr | Hello City')
+@section('title', 'About Fr |' . config('app.name'))
 
 
 @section('content')
 
+        <h1>About Fr | Hello from Laleu !</h1>
 
         <p>Built with &hearts; by promessevidéo.</p>
 
