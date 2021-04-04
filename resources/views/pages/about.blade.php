@@ -5,7 +5,7 @@
 
 @section('content')
 
-        <img src="/images/appphoto.png" alt="Appareil photo">
+        <img src="{{ asset('images/apphoto.png') }}" alt="Appareil photo">
 
         <h1>About Fr | Hello from Laleu !</h1>
 

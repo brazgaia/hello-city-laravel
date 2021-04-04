@@ -5,7 +5,7 @@
 
 @section('content')
 
-        <img src="/images/drapeau-normandie.jpg" alt="Normandie flag">
+        <img src="{{ asset('images/drapeau-normandie.jpg') }}" alt="Normandie flag">
 
         <h1>Home | Hello from Laleu !</h1>
 
