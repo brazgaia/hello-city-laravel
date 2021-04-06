@@ -11,4 +11,9 @@
 
         <p class="text-lg text-red-700">It's currently {{ date('h:i A')}}</p>
 
+        <p>
+          <a href="{{ route('help') }}" class="text-indigo-300 hover:text-indigo-700 underline"
+          >Aller a la page help</a>
+        </p>
+
 @endsection

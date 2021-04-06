@@ -10,4 +10,9 @@
      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
    </p>
 
+   <p>
+     <a href="{{ route('home') }}" class="text-indigo-300 hover:text-indigo-700 underline"
+     >Revenir à la page d'accueil</a>
+   </p>
+
 @endsection
