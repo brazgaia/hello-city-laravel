@@ -1,6 +1,5 @@
-@extends('app')
+@extends('layouts/app', ['title' => config('app.name')])
 
-@section('title', 'Home | Hello City')
 
 
 @section('content')
